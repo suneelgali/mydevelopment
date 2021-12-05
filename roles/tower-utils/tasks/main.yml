@@ -1,0 +1,6 @@
+- name: Create organization
+  organization:
+    name: "Suneel"
+    description: "Suneel organization"
+    state: present
+    controller_config_file: "tower_details.cfg"
