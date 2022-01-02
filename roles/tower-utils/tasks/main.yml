@@ -17,4 +17,4 @@
      enabled: yes
      state: present
      rrule: "DTSTART:20220103T130000Z RRULE:FREQ=WEEKLY;INTERVAL=1;COUNT=1"
-  result: schResult
+  register: schResult
