@@ -6,7 +6,7 @@
 #     controller_config_file: "tower_details.cfg"
 
 - name: create schedule
-  awx.awx.schedule:
+  schedule:
      name: Test Schedule
      controller_host: "tower1.0f2e.example.opentlc.com"
      controller_username: "admin"
